@@ -1,4 +1,5 @@
-FROM nvidia/cuda:11.3.1-base
+# FROM nvidia/cuda:11.3.1-base
+FROM nvidia/cuda:11.2.2-cudnn8-devel-ubuntu18.04
 
 RUN apt-get update
 RUN apt-get install -y software-properties-common
